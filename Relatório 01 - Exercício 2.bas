@@ -1,6 +1,6 @@
 Dim password As String 
 
-Print "Digite sua senha: ";
+Print "Digite sua senha: "
 Input password
 
 While password <> "Chewbacca"
