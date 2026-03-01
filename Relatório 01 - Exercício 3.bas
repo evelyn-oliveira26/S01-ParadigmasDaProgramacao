@@ -2,7 +2,7 @@ Dim valor As Double
 Dim dolar As Double
 Dim euro As Double
 
-Print "Digite um valor em reais: "
+Print "Digite um valor em reais:"
 Input valor
 
 dolar = valor / 5
