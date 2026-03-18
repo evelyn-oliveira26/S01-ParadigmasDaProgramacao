@@ -22,7 +22,7 @@ fn main() {
     io::stdin().read_line(&mut entrada3).expect("Erro ao ler");
     let nota3: f64 = entrada3.trim().parse().unwrap_or(0.0);
 
-    let npt = (nota1 + nota2) / 2.0;  //vou assumir na main também pois a função média, retorna somente a média
+    let npt = (nota1 + nota2) / 2.0;  //vou assumir na main também, pois a função média retorna somente a média
 
     let media_final = calcular_media(nota1, nota2, nota3);
     println!("Media final: {}", media_final);
