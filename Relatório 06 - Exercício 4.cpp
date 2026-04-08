@@ -15,21 +15,21 @@ class MembroConselho {
 class Anao : public MembroConselho {
 	public:
 		void saudar() {
-			cout << "Pela forca da montanha, eu sou " << nome << " e honro nosso aco!" << endl;
+			cout << "Pela forca da montanha, eu sou " << nome << " e honro nosso aço!" << endl;
 		}
 };
 
 class Orc : public MembroConselho {
 	public:
 		void saudar() {
-			cout << "Pelo sangue e gloria, eu sou " << nome << " e trago a forca de minha tribo!" << endl;
+			cout << "Pelo sangue e glória, eu sou " << nome << " e trago a força de minha tribo!" << endl;
 		}
 };
 
 class Draconato : public MembroConselho {
 	public:
 		void saudar() {
-			cout << "Pelo sopro dos ancestrais, eu sou " << nome << " e falo em nome dos dragoes!" << endl;
+			cout << "Pelo sopro dos ancestrais, eu sou " << nome << " e falo em nome dos dragões!" << endl;
 		}
 };
 
