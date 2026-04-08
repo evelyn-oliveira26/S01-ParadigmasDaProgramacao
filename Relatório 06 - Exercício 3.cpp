@@ -16,8 +16,9 @@ class Coordenador : public MembroInatel {
 		string departamento;
 		
 		void identificar() {
-			cout << "Meu nome e " << nomeCompleto;
-			cout << ", sou o coordenador do departamento de " << departamento << " no Inatel." << endl;
+			cout << "Meu nome e " << nomeCompleto
+				<< ", sou o coordenador do departamento de " << departamento
+				<< " no Inatel." << endl;
 		} 
 };
 
@@ -26,8 +27,9 @@ class Pesquisador : public MembroInatel {
 		string laboratorio;	
 		
 		void identificar() {
-			cout << "Meu nome e " << nomeCompleto;
-			cout << ", e realizo pesquisas no laboratorio " << laboratorio << " do Inatel." << endl;
+			cout << "Meu nome e " << nomeCompleto
+				<< ", e realizo pesquisas no laboratorio " << laboratorio 
+				<< " do Inatel." << endl;
 		}
 };
 
