@@ -2,17 +2,6 @@
 
 ### Modelo utilizado: Google Gemini
 
-
-
-
-
-
-
-
-
-
-
-
 ## 1. Identificação
 * **Nome completo:** Evelyn Maria de Oliveira Silva
 * **Matrícula:** 686
