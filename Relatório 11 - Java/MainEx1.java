@@ -1,4 +1,3 @@
-// MainEx1.java
 import java.util.ArrayList;
 
 public class MainEx1 {
@@ -7,13 +6,12 @@ public class MainEx1 {
         howl.apresentar();
 
         ArrayList<Divisao> listaInicial = new ArrayList<>();
-        Divisao quarto = new Divisao("Quarto do Howl", "Descanso e feitiços");
+        Divisao quarto = new Divisao("Quarto", "Descanso");
         listaInicial.add(quarto);
-        Divisao banheiro = new Divisao("Banheiro", "Tinturas de cabelo");
-        listaInicial.add(banheiro);
+        Divisao sala = new Divisao("Sala", "Treinar feitiços");
+        listaInicial.add(sala);
 
         CasteloAnimado castelo = new CasteloAnimado(listaInicial);
-   
         castelo.listarDivisoes();
     }
 }
