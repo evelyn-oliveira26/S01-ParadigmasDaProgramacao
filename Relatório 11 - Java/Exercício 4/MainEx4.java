@@ -5,8 +5,8 @@ public class MainEx4 {
         Lagosta lobster = new Lagosta("Lagosta Lobster");
         Cogumelo champignon = new Cogumelo("Cogumelo Champignon");
 
-        Prato prato1 = new Prato("Lagosta com molho de tomate.", lobster, "Sal.");
-        Prato prato2 = new Prato("Strogonoff com cogumelo.", champignon, "Alho.");
+        Prato prato1 = new Prato("Lagosta com molho de tomate.", lobster, "Sal.", 2.);
+        Prato prato2 = new Prato("Strogonoff com cogumelo.", champignon, "Alho.", 3.);
 
         ArrayList<Prato> cardapio = new ArrayList<>();
         cardapio.add(prato1);
