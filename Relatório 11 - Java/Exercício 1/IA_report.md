@@ -35,22 +35,23 @@ cada divisão. tente não me dar respostas assim de cara, mas seja bem claro qua
 
 **Prompt 8:**
 > e para agrupar essa lista no castelo animado seria como
+
 ## 3. Respostas Obtidas
 
 **Resposta do prompt 1:**
-A inteligência artificial me guiou para instalar a extensão e o kit de Java para realizar os exercícios corretamente.
+A IA me instruiu sobre como configurar o VS Code para o desenvolvimento em Java. Ela me recomendou a instalação do "Extension Pack for Java" da Microsoft e explicou a necessidade de ter o JDK (Java Development Kit) instalado e configurado corretamente no sistema operacional.
 
-**Resposta do prompt 2:** A IA me explicou detalhadamente sobre como funciona o ***constructor*** em Java e me deu exemplos sobre. 
+**Resposta do prompt 2:** A IA explicou detalhadamente que o construtor é um método especial executado no momento em que o objeto é instanciado (usando o operador new). Ela demonstrou como ele serve para inicializar os atributos da classe com os valores passados no momento da criação.
 
-**Resposta do prompt 3:** Ela retomou comigo o pilar de encapsulamento em **POO** e me deu exemplos sobre o assunto.
+**Resposta do prompt 3:** A IA relembrou o conceito de Encapsulamento em POO. Ela explicou que os métodos Getters servem para ler o valor de um atributo privado com segurança, enquanto os Setters servem para modificar esse valor de forma controlada, evitando o acesso direto e desprotegido aos dados da classe.
 
 **Resposta do prompt 4:** Ela me retornou dizendo que é basicamente isso mesmo, que como Java é uma linguagem orietada a objetos, nenhuma função pode existir solta no arquivo. Ela precisa pertencer a uma classe, e quando uma função pertence a uma classe, nós a chamamos de método.
 
-**Resposta do prompt 5:** A IA me explicou que **super** vem de superclasse (classe pai), e me deu um exemplo de código sobre como seria essa parte do meu exercício no arquivo do mago e na main. 
+**Resposta do prompt 5:**A IA me explicou que a palavra-chave **super()** faz referência ao construtor da superclasse (classe pai) para repassar atributos comuns (como nome e idade). Também demonstrou o uso do **@Override** para reescrever um método herdado, aplicando o polimorfismo para dar uma habilidade mágica específica ao personagem.
 
-**Resposta do prompt 6:** Ela me explicou como funciona o **ArrayList** e me forneceu o esqueleto de como seria essa parte do exercício.
+**Resposta do prompt 6:** A IA explicou a dinâmica de manipular coleções com o **ArrayList**. Ela forneceu a estrutura lógica de como receber essa lista pronta via construtor na classe gerenciadora, como utilizar o método **.add()** para incluir novos elementos na lista e como varrer a coleção usando o laço **for-each**.
 
-**Resposta do prompt 7:** A IA me explicou como eu crio as divisões na main. Ela me guiou (resumidamente) para criar as divisões soltas, depois colocá-las em uma lista, passar essa lista para a minha classe gerenciadora (castelo animado) e, por fim, usar os métodos que eu criei.
+**Resposta do prompt 7:** A IA me explicou como eu crio as divisões na Main. Ela me guiou para criar as divisões soltas, depois colocá-las em uma lista, passar essa lista para a minha classe gerenciadora (castelo animado) e, por fim, usar os métodos que eu criei.
 
 **Resposta do prompt 8:** Por fim, a IA relacionou que minha classe gerenciadora se chamava CasteloAnimado e mostrou a estrutura de como agrupar as divisões dentro dessa clase.
 
