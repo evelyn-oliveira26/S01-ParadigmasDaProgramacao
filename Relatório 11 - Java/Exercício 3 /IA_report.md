@@ -48,6 +48,6 @@ porém como eu poderia usar de esqueleto no exercicio?
 * **Como a resposta ajudou (ou falhou em ajudar) na solução do problema:**
  As respostas me ajudaram a entender mais sobre o **HashMap**, que é achei um conceito novo e um pouco difícil de entender.
 
-* **De que forma ela solucionou a sua dúvida:** Ela solucionou minha dúvida explcando e exemplificando exemplos de código.
+* **De que forma ela solucionou a sua dúvida:** Ela solucionou minha dúvida explicando e exemplificando exemplos de código.
 
 * **O que você aprendeu com aquele retorno para aplicar em problemas futuros:** Aprendi mais sobre conceitos de POO, e sobre como utilizar melhor o **HashMap**.
