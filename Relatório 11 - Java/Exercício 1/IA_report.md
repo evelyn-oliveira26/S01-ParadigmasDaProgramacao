@@ -47,7 +47,7 @@ A IA me instruiu sobre como configurar o VS Code para o desenvolvimento em Java.
 
 **Resposta do prompt 4:** Ela me retornou dizendo que é basicamente isso mesmo, que como Java é uma linguagem orietada a objetos, nenhuma função pode existir solta no arquivo. Ela precisa pertencer a uma classe, e quando uma função pertence a uma classe, nós a chamamos de método.
 
-**Resposta do prompt 5:**A IA me explicou que a palavra-chave **super()** faz referência ao construtor da superclasse (classe pai) para repassar atributos comuns (como nome e idade). Também demonstrou o uso do **@Override** para reescrever um método herdado, aplicando o polimorfismo para dar uma habilidade mágica específica ao personagem.
+**Resposta do prompt 5:** A IA me explicou que a palavra-chave **super()** faz referência ao construtor da superclasse (classe pai) para repassar atributos comuns (como nome e idade). Também demonstrou o uso do **@Override** para reescrever um método herdado, aplicando o polimorfismo para dar uma habilidade mágica específica ao personagem.
 
 **Resposta do prompt 6:** A IA explicou a dinâmica de manipular coleções com o **ArrayList**. Ela forneceu a estrutura lógica de como receber essa lista pronta via construtor na classe gerenciadora, como utilizar o método **.add()** para incluir novos elementos na lista e como varrer a coleção usando o laço **for-each**.
 
