@@ -53,7 +53,7 @@ A IA me instruiu sobre como configurar o VS Code para o desenvolvimento em Java.
 
 **Resposta do prompt 7:** A IA me explicou como eu crio as divisões na Main. Ela me guiou para criar as divisões soltas, depois colocá-las em uma lista, passar essa lista para a minha classe gerenciadora (castelo animado) e, por fim, usar os métodos que eu criei.
 
-**Resposta do prompt 8:** Por fim, a IA relacionou que minha classe gerenciadora se chamava CasteloAnimado e mostrou a estrutura de como agrupar as divisões dentro dessa clase.
+**Resposta do prompt 8:** Por fim, a IA relacionou que minha classe gerenciadora se chamava CasteloAnimado e mostrou a estrutura de como agrupar as divisões dentro dessa classe.
 
 ## 4. Relatório de Satisfação e Aprendizado
 
