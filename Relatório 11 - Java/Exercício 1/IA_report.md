@@ -60,7 +60,7 @@ A IA me instruiu sobre como configurar o VS Code para o desenvolvimento em Java.
 * **Como a resposta ajudou (ou falhou em ajudar) na solução do problema:**
 Bom, as respostas me ajudaram a retomar conceitos importantes de POO. Também me ajudaram a estruturar o código para que assim eu pudesse aplicar no meu exercício. 
 
-* **De que forma ela solucionou a sua dúvida:** Ela solucionou minha dúvida na questão de estrutura/esqueleto de código; eu precisava ver algum exemplo mais visual para eu poder aplicar nesse exercício.
+* **De que forma ela solucionou a sua dúvida:** Ela solucionou minha dúvida apresentando explicações conceituais claras e apresentando a estrutura/esqueleto de código; eu precisava ver algum exemplo mais visual para eu poder aplicar nesse exercício.
 
 * **O que você aprendeu com aquele retorno para aplicar em problemas futuros:**
 Eu retomei conceitos importantes e básicos de POO, logo, nos próximos exercícios, acredito não precisar tanto perguntar sobre as mesmas coisas, e sim ir direto ao ponto do problema.
