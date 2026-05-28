@@ -3,10 +3,10 @@ public class Prato {
     private Monstro ingrediente;
     private Tempero tempero;
 
-    public Prato(String nome, Monstro monstro, String nomeTempero) {
+    public Prato(String nome, Monstro monstro, String nomeTempero, double qntdeTempero) {
         this.nome = nome;
         this.ingrediente = monstro;
-        this.tempero = new Tempero(nomeTempero);
+        this.tempero = new Tempero(nomeTempero, qntdeTempero); 
     }
 
     public void servir() {
