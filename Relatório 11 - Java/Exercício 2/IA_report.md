@@ -20,7 +20,7 @@ arraylist
 
 ## 3. Respostas Obtidas
 
-**Resposta do prompt 1:** A IA me explicou como instanciar internamente no construtor e deu o exemplo/estrutura de como o código ficaria no exercício.
+**Resposta do prompt 1:** A IA me explicou como instanciar internamente no construtor. Ela disse que, para instanciar um ArrayList internamente no construtor da classe Menu, não devemos passá-lo como parâmetro. Em vez disso, inicializamos a lista diretamente no escopo do construtor usando o operador new. Ela também deu o exemplo/estrutura de como o código ficaria no exercício.
 
 **Resposta do prompt 2:** A IA me deu exemplos sobre como funciona o **for-each**, que estava me atrasando um pouco.
 
