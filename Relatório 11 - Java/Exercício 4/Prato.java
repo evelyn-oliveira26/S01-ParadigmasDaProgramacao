@@ -10,7 +10,7 @@ public class Prato {
     }
 
     public void servir() {
-        System.out.println("\nPrato Servido: " + nome);
+        System.out.println("Prato Servido: " + nome);
         ingrediente.virarPrato();
         System.out.println("Tempero usado: " + tempero.getNome());
     }
