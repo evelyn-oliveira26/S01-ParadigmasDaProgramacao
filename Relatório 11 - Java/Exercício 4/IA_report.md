@@ -13,7 +13,7 @@
 
 ## 3. Respostas Obtidas
 
-**Resposta do prompt 1:** A IA me explicou que sempre que o atributo for de uma classe que você criou, para criar ele internamente você obrigatoriamente vai precisar digitar "new NomeDaClasse(...)".
+**Resposta do prompt 1:** A IA me explicou que o erro estava na forma como eu tentava criar o tempero. Como o Tempero é uma classe que eu criei (uma relação de Composição), o Java não aceita que eu jogue os dados direto ali. Ela me relembrou que, para criar um objeto de outra classe ali dentro do construtor, eu preciso obrigatoriamente usar o comando new Tempero(...) para o objeto ser instanciado corretamente dentro do Prato.
 
 ## 4. Relatório de Satisfação e Aprendizado
 
