@@ -18,7 +18,6 @@ bandaEncerramento (Evento bandas _) = let (Banda nome _ _) = last bandas in nome
 
 main :: IO ()
 main = do
-
     let banda1 = Banda "Iron Maiden" "Rock" 5000.0
     let banda2 = Banda "Marron 5" "Pop" 7000.0
     let banda3 = Banda "The Neighbourhood" "Indie" 10000.0
