@@ -5,8 +5,7 @@ data Evento = Evento [Banda] StatusEvento
 custoTotalEvento :: Evento -> Double
 custoTotalEvento (Evento bandas status)
     | status == Cancelado = 0.0
-    | otherwise = total * 1.2
-    where total = sum (map (\(Banda _ _ cache) -> cache) bandas)
+    | otherwise = sum (map (\(Banda _ _ cache) -> cache) bandas) * 1.2
 
 bandaAbertura :: Evento -> String
 bandaAbertura (Evento [] _) = "Nenhuma banda cadastrada."
