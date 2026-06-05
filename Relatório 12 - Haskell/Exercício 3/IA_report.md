@@ -16,7 +16,7 @@ porém eu não sei como pegar o último com last
 
 ## 3. Respostas Obtidas
 
-**Resposta do prompt 1:** A IA me explicou que, enquanto o Pattern Matching com o operador **:** extrai o primeiro elemento de uma lista (abertura), pegar o último elemento por padrão visual seria muito complexo. Para isso, o Haskell possui a função pronta **last**. Ela me ensinou que devo usar o Pattern Matching primeiro para extrair a lista de dentro do construtor do Evento e, em seguida, aplicar a função **last** nessa lista extraída, o que me permite isolar o objeto da última banda e pegar o nome dela.
+**Resposta do prompt 1:** A IA me explicou que, enquanto o Pattern Matching com o operador "**:**" extrai o primeiro elemento de uma lista (abertura), pegar o último elemento por padrão visual seria muito complexo. Para isso, o Haskell possui a função pronta **last**. Ela me ensinou que devo usar o Pattern Matching primeiro para extrair a lista de dentro do construtor do Evento e, em seguida, aplicar a função **last** nessa lista extraída, o que me permite isolar o objeto da última banda e pegar o nome dela.
 
 ## 4. Relatório de Satisfação e Aprendizado
 
