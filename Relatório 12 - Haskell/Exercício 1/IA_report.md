@@ -28,7 +28,7 @@
 
 ## 3. Respostas Obtidas
 
-**Resposta do prompt 1:** A IA me explicou que para criar novos tipos personalizados no Haskell nós usamos o comando **data**. Ela me mostrou a sintaxe usando a barra vertical | para separar as opções (construtores) e me alertou para colocar o **deriving (Eq)** no final da linha, explicando que isso é necessário para que o Haskell nos deixe comparar esses status usando o operador == mais adiante no código.
+**Resposta do prompt 1:** A IA me explicou que para criar novos tipos personalizados no Haskell nós usamos o comando **data**. Ela me mostrou a sintaxe usando a barra vertical para separar as opções (construtores) e me alertou para colocar o **deriving (Eq)** no final da linha, explicando que isso é necessário para que o Haskell nos deixe comparar esses status usando o operador == mais adiante no código.
 
 **Resposta do prompt 2:** A IA me mostrou que no Haskell nós colocamos a lista direto na definição do construtor usando os colchetes em volta do tipo dos elementos.
 
