@@ -9,8 +9,7 @@ valorFinalAtendimento :: Atendimento -> Double
 valorFinalAtendimento (Atendimento servicos status)
     | status == Cancelado = 0.0
     | length servicos > 3 = total * 1.25
-    | otherwise = total
-    where total = totalServicos servicos
+    | otherwise = totalServicos servicos
 
 primeiroServico :: Atendimento -> String
 primeiroServico (Atendimento [] _) = "Nenhum servico cadastrado."
