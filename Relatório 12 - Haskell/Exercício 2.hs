@@ -8,9 +8,8 @@ totalItens itens = sum (map (\(Item _ _ preco) -> preco) itens)
 valorFinal :: Compra -> Double
 valorFinal (Compra itens status)
     | status == Cancelada = 0.0
-    | total > 200 = total * 0.9
-    | otherwise = total
-    where total = totalItens itens
+    | totalItens itens > 200 = totalItens itens * 0.9
+    | otherwise = totalItens itens
 
 main :: IO ()
 main = do
