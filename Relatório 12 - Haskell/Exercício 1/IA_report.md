@@ -26,9 +26,12 @@
 **Prompt 6:**
 > agora o que menos entendi kk pattern matching
 
+**Prompt 7:**
+> como funciona a sintaxe para criar uma linha com o let dentro do main? como eu passo os valores para o construtor um do lado do outro
+
 ## 3. Respostas Obtidas
 
-**Resposta do prompt 1:** A IA me explicou que para criar novos tipos personalizados no Haskell nós usamos o comando **data**. Ela me mostrou a sintaxe usando a barra vertical para separar as opções (construtores) e me alertou para colocar o **deriving (Eq)** no final da linha, explicando que isso é necessário para que o Haskell nos deixe comparar esses status usando o operador == mais adiante no código.
+**Resposta do prompt 1:** A IA me explicou que para criar novos tipos personalizados no Haskell nós usamos o comando **data**. Ela me mostrou a sintaxe usando a barra vertical | para separar as opções (construtores) e me alertou para colocar o **deriving (Eq)** no final da linha, explicando que isso é necessário para que o Haskell nos deixe comparar esses status usando o operador == mais adiante no código.
 
 **Resposta do prompt 2:** A IA me mostrou que no Haskell nós colocamos a lista direto na definição do construtor usando os colchetes em volta do tipo dos elementos.
 
@@ -39,6 +42,8 @@
 **Resposta do prompt 5:** A IA me explicou que no Haskell não usamos loops para somar valores de uma lista. Em vez disso, usamos o map e o sum. Ela me ensinou que a barra invertida \ serve para criar uma função anônima (lambda) que desestrutura o tipo Bebida, usando underlines _ para ignorar os textos e isolar apenas o campo do preço. O map aplica essa função na lista inteira, gerando uma nova lista contendo apenas os números dos preços, e o sum recebe essa lista de números e soma tudo, devolvendo o total do pedido. 
 
 **Resposta do prompt 6:** A IA me explicou que o Pattern Matching funciona como um "casamento de padrões" baseado no formato visual dos dados. Em vez de usarmos índices ou métodos, no Haskell nós desenhamos o molde que o dado deve ter. Se o dado se encaixar nesse molde, o compilador abre o pacote automaticamente, nos dando as variáveis que precisamos e permitindo ignorar o resto com o underline _. Ela me deu exemplos de como ficaria no meu código.
+
+**Resposta do prompt 7:** A IA me explicou que para guardar um valor no main a gente usa **let nome = Construtor**. Ela me mostrou que os valores são passados em sequência, separados apenas por um espaço. Também me alertou que, se o construtor pedir uma lista, eu preciso colocar o elemento entre colchetes, mesmo que seja para passar um item só.
 
 ## 4. Relatório de Satisfação e Aprendizado
 
