@@ -8,7 +8,7 @@ totalServicos servicos = sum (map (\(Servico _ _ preco) -> preco) servicos)
 valorFinalAtendimento :: Atendimento -> Double
 valorFinalAtendimento (Atendimento servicos status)
     | status == Cancelado = 0.0
-    | length servicos > 3 = total * 1.25
+    | length servicos > 3 = totalServicos servicos * 1.25
     | otherwise = totalServicos servicos
 
 primeiroServico :: Atendimento -> String
