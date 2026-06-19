@@ -1,8 +1,8 @@
-% Fatos adicionais (Exercício 1)
+%fatos adicionais
 alimenta(agua, sucuri).
 alimenta(terra, sucuri).
 
-% Regra: espécie chave (Exercício 1)
+%regra: espécie chave
 especie_chave(Animal) :-
     (alimenta(agua, Animal) ; alimenta(terra, Animal)),
     (nicho(Animal, rios) ; nicho(Animal, pântano) ; nicho(Animal, profundezas)).
