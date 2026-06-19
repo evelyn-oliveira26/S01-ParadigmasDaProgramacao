@@ -4,3 +4,9 @@ competidores_diretos(A, B) :-
     alimenta(sol, B),
     alimenta(terra, B),
     A \= B.
+
+%query teste
+% ?- competidores_diretos(A, B).
+
+%retorno
+% false
