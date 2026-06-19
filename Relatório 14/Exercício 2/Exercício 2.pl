@@ -1,3 +1,4 @@
+%regra
 especie_dominante(Animal) :-
     nicho(Animal, Nicho1),
     nicho(Animal, Nicho2),
