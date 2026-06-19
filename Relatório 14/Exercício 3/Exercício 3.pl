@@ -1,3 +1,4 @@
+%regra
 competidores_diretos(A, B) :-
     alimenta(sol, A),
     alimenta(terra, A),
