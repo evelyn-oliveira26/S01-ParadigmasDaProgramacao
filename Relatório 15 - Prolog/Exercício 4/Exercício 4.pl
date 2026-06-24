@@ -12,5 +12,9 @@ peça_final(P) :-
 % ?- peça_raiz(P), componente(P, _, Categoria), Categoria \= propulsao.
 
 %retorno 6
+% Categoria = fundamental,
 % P = reator_fusao;
-% P = modulo_suporte_vida.
+% Categoria = sistemas,
+% P = modulo_suporte_vida;
+% Categoria = defesa,
+% P = cloaking_device.
