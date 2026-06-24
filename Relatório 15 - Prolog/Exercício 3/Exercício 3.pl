@@ -13,13 +13,13 @@ pode_montar(Hangar, Componente) :-
 % ?- pode_montar(hangar_beta, Componente).
 
 %retorno 4
-% Componente = propulsor_ion ;
-% Componente = dobra_espacial ;
-% Componente = escudo_plasma ;
-% Componente = ia_navegação ;
-% Componente = scanner_deep_space ;
-% Componente = modulo_suporte_vida ;
-% Componente = cloaking_device ;
+% Componente = propulsor_ion;
+% Componente = dobra_espacial;
+% Componente = escudo_plasma;
+% Componente = ia_navegação;
+% Componente = scanner_deep_space;
+% Componente = modulo_suporte_vida;
+% Componente = cloaking_device;
 % Componente = android_reparo.
 
 %query 5
