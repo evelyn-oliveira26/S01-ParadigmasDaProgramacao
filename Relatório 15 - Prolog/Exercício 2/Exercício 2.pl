@@ -11,8 +11,8 @@ falta_energia(H) :-
     possui(H, _),
     \+ (possui(H, P), componente(P, _, propulsao)).
 
-%query teste
+%query 3
 % ?- hangar_combate(H), falta_energia(H).
 
-%retorno 
+%retorno 3 
 % false.
