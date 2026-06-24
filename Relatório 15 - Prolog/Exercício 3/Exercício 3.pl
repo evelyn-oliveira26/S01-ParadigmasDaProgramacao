@@ -25,5 +25,5 @@ pode_montar(Hangar, Componente) :-
 %query 5
 % ?- pode_montar(hangar_gamma, ia_navegação).
 
-% Retorno 5:
+%retorno 5
 % false.
