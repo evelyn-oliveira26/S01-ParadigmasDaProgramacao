@@ -15,7 +15,7 @@
 > A Regra 2 pede para verificar se a peça "não é necessária para nenhuma outra" (Peça Final). Qual é a diferença estrutural disso para a regra 1 em termos de código, já que ambas usam o verbo "precisar"?
 
 **Prompt 3:**
-> Na hora de montar a Query 3, eu tenho que filtrar os componentes pela regra `peça_raiz` e também garantir que eles NÃO sejam da categoria 'propulsao'. Como eu encadeio essa busca da categoria se a regra `peça_raiz` só me devolve o nome da peça?
+> Na hora de montar a Query 6, eu tenho que filtrar os componentes pela regra `peça_raiz` e também garantir que eles NÃO sejam da categoria 'propulsao'. Como eu encadeio essa busca da categoria se a regra `peça_raiz` só me devolve o nome da peça?
 
 ## 3. Respostas Obtidas
 
@@ -30,7 +30,7 @@
 * **Como a resposta ajudou na solução do problema:**
 As respostas garantiram que eu aplicasse as negações corretamente nos lados certos da relação de dependência (Alvo vs. Requisito), permitindo mapear quem está na base e quem está no topo da cadeia de engenharia.
 
-* **De que forma ela solucionou a sua dúvida:** Solucionou a dúvida de como extrair atributos extras (como a categoria) de uma peça que passou por uma regra que só retornava o nome. A query final rodou perfeitamente e retornou o reator de fusão e o módulo de suporte à vida.
+* **De que forma ela solucionou a sua dúvida:** Solucionou a dúvida de como extrair atributos extras (como a categoria) de uma peça que passou por uma regra que só retornava o nome. A query final rodou perfeitamente e retornou o reator de fusão, o módulo de suporte à vida e o cloaking device, provando que o filtro cruzado funcionou.
 
 * **O que você aprendeu com aquele retorno para aplicar em problemas futuros:**
 Aprendi como mapear grafos direcionados e árvores de dependência no Prolog. Ficou muito claro como a posição de uma variável dentro dos parênteses altera o sentido lógico da relação, e reforcei a técnica de resgatar dados do banco cruzando regras criadas por mim com fatos estruturais puros dentro do terminal.
